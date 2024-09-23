@@ -1,0 +1,511 @@
+2024-09-22 17:03:46.147 -06:00 [DBG] Hosting starting
+2024-09-22 17:03:47.158 -06:00 [INF] Now listening on: https://localhost:7051
+2024-09-22 17:03:47.160 -06:00 [INF] Now listening on: http://localhost:5162
+2024-09-22 17:03:47.161 -06:00 [DBG] Loaded hosting startup assembly rr201098_desafio02
+2024-09-22 17:03:47.161 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-22 17:03:47.161 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-22 17:03:47.161 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-22 17:03:47.488 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-22 17:03:47.489 -06:00 [INF] Hosting environment: Development
+2024-09-22 17:03:47.489 -06:00 [INF] Content root path: C:\GitHub\rr201098_desafio02\rr201098_desafio02
+2024-09-22 17:03:47.490 -06:00 [DBG] Hosting started
+2024-09-22 17:03:47.583 -06:00 [DBG] Connection id "0HN6RBB8C8AV4" received FIN.
+2024-09-22 17:03:47.583 -06:00 [DBG] Connection id "0HN6RBB8C8AV5" received FIN.
+2024-09-22 17:03:47.607 -06:00 [DBG] Connection id "0HN6RBB8C8AV4" accepted.
+2024-09-22 17:03:47.607 -06:00 [DBG] Connection id "0HN6RBB8C8AV5" accepted.
+2024-09-22 17:03:47.609 -06:00 [DBG] Connection id "0HN6RBB8C8AV4" started.
+2024-09-22 17:03:47.609 -06:00 [DBG] Connection id "0HN6RBB8C8AV5" started.
+2024-09-22 17:03:47.656 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 17:03:47.656 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 17:03:47.855 -06:00 [DBG] Connection id "0HN6RBB8C8AV5" stopped.
+2024-09-22 17:03:47.863 -06:00 [DBG] Connection id "0HN6RBB8C8AV4" stopped.
+2024-09-22 17:03:47.872 -06:00 [DBG] Connection id "0HN6RBB8C8AV5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:03:47.872 -06:00 [DBG] Connection id "0HN6RBB8C8AV4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:03:48.670 -06:00 [DBG] Connection id "0HN6RBB8C8AV6" accepted.
+2024-09-22 17:03:48.671 -06:00 [DBG] Connection id "0HN6RBB8C8AV6" started.
+2024-09-22 17:03:48.858 -06:00 [DBG] Connection 0HN6RBB8C8AV6 established using the following protocol: "Tls13"
+2024-09-22 17:03:49.000 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/ - null null
+2024-09-22 17:03:49.308 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-22 17:03:49.377 -06:00 [INF] Request: GET / 
+2024-09-22 17:03:49.390 -06:00 [INF] Response: 401
+2024-09-22 17:03:49.406 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/ - 401 null null 406.9487ms
+2024-09-22 17:03:50.520 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/favicon.ico - null null
+2024-09-22 17:03:50.524 -06:00 [INF] Request: GET /favicon.ico 
+2024-09-22 17:03:50.525 -06:00 [INF] Response: 401
+2024-09-22 17:03:50.526 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/favicon.ico - 401 null null 6.1418ms
+2024-09-22 17:06:04.225 -06:00 [DBG] Hosting starting
+2024-09-22 17:06:04.619 -06:00 [INF] Now listening on: https://localhost:7051
+2024-09-22 17:06:04.620 -06:00 [INF] Now listening on: http://localhost:5162
+2024-09-22 17:06:04.621 -06:00 [DBG] Loaded hosting startup assembly rr201098_desafio02
+2024-09-22 17:06:04.621 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-22 17:06:04.621 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-22 17:06:04.621 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-22 17:06:04.719 -06:00 [DBG] Connection id "0HN6RBCH82UQ8" received FIN.
+2024-09-22 17:06:04.720 -06:00 [DBG] Connection id "0HN6RBCH82UQ8" accepted.
+2024-09-22 17:06:04.723 -06:00 [DBG] Connection id "0HN6RBCH82UQ8" started.
+2024-09-22 17:06:04.756 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 17:06:04.843 -06:00 [DBG] Connection id "0HN6RBCH82UQ8" stopped.
+2024-09-22 17:06:04.855 -06:00 [DBG] Connection id "0HN6RBCH82UQ8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:06:04.930 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-22 17:06:04.931 -06:00 [INF] Hosting environment: Development
+2024-09-22 17:06:04.931 -06:00 [INF] Content root path: C:\GitHub\rr201098_desafio02\rr201098_desafio02
+2024-09-22 17:06:04.931 -06:00 [DBG] Hosting started
+2024-09-22 17:06:06.258 -06:00 [DBG] Connection id "0HN6RBCH82UQ9" accepted.
+2024-09-22 17:06:06.260 -06:00 [DBG] Connection id "0HN6RBCH82UQ9" started.
+2024-09-22 17:06:06.540 -06:00 [DBG] Connection 0HN6RBCH82UQ9 established using the following protocol: "Tls13"
+2024-09-22 17:06:06.731 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/ - null null
+2024-09-22 17:06:07.188 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-22 17:06:07.240 -06:00 [INF] Request: GET / 
+2024-09-22 17:06:07.250 -06:00 [INF] Response: 401
+2024-09-22 17:06:07.263 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/ - 401 null null 535.6049ms
+2024-09-22 17:06:08.718 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/favicon.ico - null null
+2024-09-22 17:06:08.721 -06:00 [INF] Request: GET /favicon.ico 
+2024-09-22 17:06:08.722 -06:00 [INF] Response: 401
+2024-09-22 17:06:08.722 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/favicon.ico - 401 null null 4.7549ms
+2024-09-22 17:07:02.383 -06:00 [DBG] Connection id "0HN6RBCH82UQ9" received FIN.
+2024-09-22 17:07:02.415 -06:00 [DBG] The connection queue processing loop for 0HN6RBCH82UQ9 completed.
+2024-09-22 17:07:02.450 -06:00 [DBG] Connection id "0HN6RBCH82UQ9" is closed. The last processed stream ID was 3.
+2024-09-22 17:07:02.450 -06:00 [DBG] Connection id "0HN6RBCH82UQ9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:07:02.459 -06:00 [DBG] Connection id "0HN6RBCH82UQ9" stopped.
+2024-09-22 17:12:01.706 -06:00 [DBG] Hosting starting
+2024-09-22 17:12:02.339 -06:00 [INF] Now listening on: https://localhost:7051
+2024-09-22 17:12:02.340 -06:00 [INF] Now listening on: http://localhost:5162
+2024-09-22 17:12:02.341 -06:00 [DBG] Loaded hosting startup assembly rr201098_desafio02
+2024-09-22 17:12:02.341 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-22 17:12:02.341 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-22 17:12:02.341 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-22 17:12:02.638 -06:00 [DBG] Connection id "0HN6RBFRTF4IP" received FIN.
+2024-09-22 17:12:02.638 -06:00 [DBG] Connection id "0HN6RBFRTF4IQ" received FIN.
+2024-09-22 17:12:02.651 -06:00 [DBG] Connection id "0HN6RBFRTF4IP" accepted.
+2024-09-22 17:12:02.652 -06:00 [DBG] Connection id "0HN6RBFRTF4IQ" accepted.
+2024-09-22 17:12:02.656 -06:00 [DBG] Connection id "0HN6RBFRTF4IQ" started.
+2024-09-22 17:12:02.657 -06:00 [DBG] Connection id "0HN6RBFRTF4IP" started.
+2024-09-22 17:12:02.690 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-22 17:12:02.691 -06:00 [INF] Hosting environment: Development
+2024-09-22 17:12:02.691 -06:00 [INF] Content root path: C:\GitHub\rr201098_desafio02\rr201098_desafio02
+2024-09-22 17:12:02.692 -06:00 [DBG] Hosting started
+2024-09-22 17:12:02.712 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 17:12:02.712 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 17:12:02.783 -06:00 [DBG] Connection id "0HN6RBFRTF4IQ" stopped.
+2024-09-22 17:12:02.783 -06:00 [DBG] Connection id "0HN6RBFRTF4IP" stopped.
+2024-09-22 17:12:02.792 -06:00 [DBG] Connection id "0HN6RBFRTF4IQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:12:02.792 -06:00 [DBG] Connection id "0HN6RBFRTF4IP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:12:03.225 -06:00 [DBG] Connection id "0HN6RBFRTF4IR" accepted.
+2024-09-22 17:12:03.225 -06:00 [DBG] Connection id "0HN6RBFRTF4IR" started.
+2024-09-22 17:12:03.304 -06:00 [DBG] Connection 0HN6RBFRTF4IR established using the following protocol: "Tls13"
+2024-09-22 17:12:03.446 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/ - null null
+2024-09-22 17:12:03.637 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-22 17:12:03.680 -06:00 [INF] Request: GET / 
+2024-09-22 17:12:03.689 -06:00 [INF] Response: 401
+2024-09-22 17:12:03.697 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/ - 401 null null 256.5284ms
+2024-09-22 17:12:04.503 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/favicon.ico - null null
+2024-09-22 17:12:04.506 -06:00 [INF] Request: GET /favicon.ico 
+2024-09-22 17:12:04.507 -06:00 [INF] Response: 401
+2024-09-22 17:12:04.508 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/favicon.ico - 401 null null 4.4248ms
+2024-09-22 17:22:33.374 -06:00 [DBG] Hosting starting
+2024-09-22 17:22:33.759 -06:00 [INF] Now listening on: https://localhost:7051
+2024-09-22 17:22:33.761 -06:00 [INF] Now listening on: http://localhost:5162
+2024-09-22 17:22:33.761 -06:00 [DBG] Loaded hosting startup assembly rr201098_desafio02
+2024-09-22 17:22:33.761 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-22 17:22:33.761 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-22 17:22:33.761 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-22 17:22:33.966 -06:00 [DBG] Connection id "0HN6RBLO292R8" accepted.
+2024-09-22 17:22:33.966 -06:00 [DBG] Connection id "0HN6RBLO292R9" accepted.
+2024-09-22 17:22:33.975 -06:00 [DBG] Connection id "0HN6RBLO292R8" started.
+2024-09-22 17:22:33.975 -06:00 [DBG] Connection id "0HN6RBLO292R9" started.
+2024-09-22 17:22:33.990 -06:00 [DBG] Connection id "0HN6RBLO292R8" received FIN.
+2024-09-22 17:22:33.990 -06:00 [DBG] Connection id "0HN6RBLO292R9" received FIN.
+2024-09-22 17:22:34.009 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-22 17:22:34.010 -06:00 [INF] Hosting environment: Development
+2024-09-22 17:22:34.010 -06:00 [INF] Content root path: C:\GitHub\rr201098_desafio02\rr201098_desafio02
+2024-09-22 17:22:34.010 -06:00 [DBG] Hosting started
+2024-09-22 17:22:34.027 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 17:22:34.027 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 17:22:34.114 -06:00 [DBG] Connection id "0HN6RBLO292R9" stopped.
+2024-09-22 17:22:34.114 -06:00 [DBG] Connection id "0HN6RBLO292R8" stopped.
+2024-09-22 17:22:34.122 -06:00 [DBG] Connection id "0HN6RBLO292R8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:22:34.122 -06:00 [DBG] Connection id "0HN6RBLO292R9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:22:34.762 -06:00 [DBG] Connection id "0HN6RBLO292RA" accepted.
+2024-09-22 17:22:34.764 -06:00 [DBG] Connection id "0HN6RBLO292RA" started.
+2024-09-22 17:22:34.824 -06:00 [DBG] Connection id "0HN6RBLO292RB" accepted.
+2024-09-22 17:22:34.824 -06:00 [DBG] Connection id "0HN6RBLO292RB" started.
+2024-09-22 17:22:34.900 -06:00 [DBG] Connection 0HN6RBLO292RB established using the following protocol: "Tls13"
+2024-09-22 17:22:34.900 -06:00 [DBG] Connection 0HN6RBLO292RA established using the following protocol: "Tls13"
+2024-09-22 17:22:35.091 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/ - null null
+2024-09-22 17:22:35.373 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-22 17:22:35.426 -06:00 [INF] Request: GET / 
+2024-09-22 17:22:35.435 -06:00 [INF] Response: 401
+2024-09-22 17:22:35.445 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/ - 401 null null 357.9286ms
+2024-09-22 17:22:35.523 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/favicon.ico - null null
+2024-09-22 17:22:35.525 -06:00 [INF] Request: GET /favicon.ico 
+2024-09-22 17:22:35.526 -06:00 [INF] Response: 401
+2024-09-22 17:22:35.527 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/favicon.ico - 401 null null 3.8996ms
+2024-09-22 17:23:10.005 -06:00 [DBG] Connection id "0HN6RBLO292RC" accepted.
+2024-09-22 17:23:10.006 -06:00 [DBG] Connection id "0HN6RBLO292RC" started.
+2024-09-22 17:23:10.015 -06:00 [DBG] Connection 0HN6RBLO292RC established using the following protocol: "Tls13"
+2024-09-22 17:23:10.020 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 17:23:10.035 -06:00 [INF] Request: GET /productos 
+2024-09-22 17:23:10.036 -06:00 [INF] Response: 401
+2024-09-22 17:23:10.036 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 401 null null 16.1172ms
+2024-09-22 17:23:55.610 -06:00 [DBG] Connection id "0HN6RBLO292RB" received FIN.
+2024-09-22 17:23:55.614 -06:00 [DBG] The connection queue processing loop for 0HN6RBLO292RB completed.
+2024-09-22 17:23:55.618 -06:00 [DBG] Connection id "0HN6RBLO292RB" is closed. The last processed stream ID was 0.
+2024-09-22 17:23:55.618 -06:00 [DBG] Connection id "0HN6RBLO292RB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:23:55.626 -06:00 [DBG] Connection id "0HN6RBLO292RB" stopped.
+2024-09-22 17:29:54.942 -06:00 [DBG] Connection id "0HN6RBLO292RC" received FIN.
+2024-09-22 17:29:54.942 -06:00 [DBG] Connection id "0HN6RBLO292RC" is closed. The last processed stream ID was 1.
+2024-09-22 17:29:54.943 -06:00 [DBG] Connection id "0HN6RBLO292RC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:29:54.943 -06:00 [DBG] Connection id "0HN6RBLO292RA" received FIN.
+2024-09-22 17:29:54.943 -06:00 [DBG] Connection id "0HN6RBLO292RA" is closed. The last processed stream ID was 3.
+2024-09-22 17:29:54.943 -06:00 [DBG] The connection queue processing loop for 0HN6RBLO292RC completed.
+2024-09-22 17:29:54.944 -06:00 [DBG] Connection id "0HN6RBLO292RA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 17:30:10.997 -06:00 [DBG] Connection id "0HN6RBLO292RC" stopped.
+2024-09-22 17:30:11.581 -06:00 [DBG] The connection queue processing loop for 0HN6RBLO292RA completed.
+2024-09-22 17:30:11.582 -06:00 [DBG] Connection id "0HN6RBLO292RA" stopped.
+2024-09-22 17:36:42.780 -06:00 [DBG] Connection id "0HN6RBLO292RD" accepted.
+2024-09-22 17:36:42.787 -06:00 [DBG] Connection id "0HN6RBLO292RD" started.
+2024-09-22 17:36:42.810 -06:00 [DBG] Connection 0HN6RBLO292RD established using the following protocol: "Tls13"
+2024-09-22 17:36:42.813 -06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7051/productos - null null
+2024-09-22 17:36:42.824 -06:00 [INF] Request: OPTIONS /productos 
+2024-09-22 17:36:42.824 -06:00 [INF] Response: 401
+2024-09-22 17:36:42.831 -06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7051/productos - 401 null null 17.6629ms
+2024-09-22 17:36:45.904 -06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7051/productos - null null
+2024-09-22 17:36:45.905 -06:00 [INF] Request: OPTIONS /productos 
+2024-09-22 17:36:45.905 -06:00 [INF] Response: 401
+2024-09-22 17:36:45.905 -06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7051/productos - 401 null null 0.6117ms
+2024-09-22 17:36:58.145 -06:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7051/productos - null null
+2024-09-22 17:36:58.145 -06:00 [INF] Request: OPTIONS /productos 
+2024-09-22 17:36:58.145 -06:00 [INF] Response: 401
+2024-09-22 17:36:58.145 -06:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7051/productos - 401 null null 0.6555ms
+2024-09-22 17:37:15.193 -06:00 [DBG] Connection id "0HN6RBLO292RE" accepted.
+2024-09-22 17:37:15.193 -06:00 [DBG] Connection id "0HN6RBLO292RE" started.
+2024-09-22 17:37:15.199 -06:00 [DBG] Connection 0HN6RBLO292RE established using the following protocol: "Tls13"
+2024-09-22 17:37:15.203 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 17:37:15.206 -06:00 [INF] Request: GET /productos 
+2024-09-22 17:37:15.235 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 17:37:15.245 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 17:37:15.262 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 17:37:15.285 -06:00 [INF] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 17:37:15.288 -06:00 [INF] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 17:37:15.295 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 17:37:19.499 -06:00 [INF] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 17:37:19.499 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 17:37:19.512 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 17:37:19.521 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000001, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 17:37:19.521 -06:00 [INF] Response: 200
+2024-09-22 17:37:19.522 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 4319.4625ms
+2024-09-22 17:37:19.524 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 17:37:30.138 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 17:37:30.138 -06:00 [INF] Request: GET /productos 
+2024-09-22 17:37:30.138 -06:00 [INF] Response: 403
+2024-09-22 17:37:30.138 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 403 null null 0.5654ms
+2024-09-22 17:37:35.116 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 17:37:35.116 -06:00 [INF] Request: GET /productos 
+2024-09-22 17:37:35.116 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 17:37:35.116 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 17:37:35.116 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 17:37:35.117 -06:00 [INF] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 17:37:35.117 -06:00 [INF] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 17:37:35.117 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 17:37:35.385 -06:00 [INF] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 17:37:35.385 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 17:37:35.385 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 17:37:35.386 -06:00 [DBG] requestId: 0HN6RBLO292RE:00000005, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 17:37:35.386 -06:00 [INF] Response: 200
+2024-09-22 17:37:35.386 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 270.4967ms
+2024-09-22 17:37:35.386 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 18:09:24.287 -06:00 [DBG] Hosting starting
+2024-09-22 18:09:24.665 -06:00 [INF] Now listening on: https://localhost:7051
+2024-09-22 18:09:24.666 -06:00 [INF] Now listening on: http://localhost:5162
+2024-09-22 18:09:24.667 -06:00 [DBG] Loaded hosting startup assembly rr201098_desafio02
+2024-09-22 18:09:24.667 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-22 18:09:24.667 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-22 18:09:24.667 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-22 18:09:24.955 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-22 18:09:24.956 -06:00 [INF] Hosting environment: Development
+2024-09-22 18:09:24.956 -06:00 [INF] Content root path: C:\GitHub\rr201098_desafio02\rr201098_desafio02
+2024-09-22 18:09:24.957 -06:00 [DBG] Hosting started
+2024-09-22 18:09:25.102 -06:00 [DBG] Connection id "0HN6RCFTRBQRB" received FIN.
+2024-09-22 18:09:25.102 -06:00 [DBG] Connection id "0HN6RCFTRBQRA" received FIN.
+2024-09-22 18:09:25.116 -06:00 [DBG] Connection id "0HN6RCFTRBQRA" accepted.
+2024-09-22 18:09:25.116 -06:00 [DBG] Connection id "0HN6RCFTRBQRB" accepted.
+2024-09-22 18:09:25.117 -06:00 [DBG] Connection id "0HN6RCFTRBQRA" started.
+2024-09-22 18:09:25.117 -06:00 [DBG] Connection id "0HN6RCFTRBQRB" started.
+2024-09-22 18:09:25.144 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 18:09:25.144 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 18:09:25.228 -06:00 [DBG] Connection id "0HN6RCFTRBQRA" stopped.
+2024-09-22 18:09:25.228 -06:00 [DBG] Connection id "0HN6RCFTRBQRB" stopped.
+2024-09-22 18:09:25.237 -06:00 [DBG] Connection id "0HN6RCFTRBQRB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 18:09:25.237 -06:00 [DBG] Connection id "0HN6RCFTRBQRA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 18:09:26.440 -06:00 [DBG] Connection id "0HN6RCFTRBQRC" accepted.
+2024-09-22 18:09:26.440 -06:00 [DBG] Connection id "0HN6RCFTRBQRC" started.
+2024-09-22 18:09:26.926 -06:00 [DBG] Connection 0HN6RCFTRBQRC established using the following protocol: "Tls13"
+2024-09-22 18:09:27.035 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/ - null null
+2024-09-22 18:09:27.310 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-22 18:09:27.365 -06:00 [INF] Request: GET / 
+2024-09-22 18:09:27.371 -06:00 [INF] Response: 401
+2024-09-22 18:09:27.380 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/ - 401 null null 347.3277ms
+2024-09-22 18:09:28.402 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/favicon.ico - null null
+2024-09-22 18:09:28.405 -06:00 [INF] Request: GET /favicon.ico 
+2024-09-22 18:09:28.405 -06:00 [INF] Response: 401
+2024-09-22 18:09:28.406 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/favicon.ico - 401 null null 4.159ms
+2024-09-22 18:09:43.789 -06:00 [DBG] Connection id "0HN6RCFTRBQRD" accepted.
+2024-09-22 18:09:43.790 -06:00 [DBG] Connection id "0HN6RCFTRBQRD" started.
+2024-09-22 18:09:43.797 -06:00 [DBG] Connection 0HN6RCFTRBQRD established using the following protocol: "Tls13"
+2024-09-22 18:09:43.801 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:09:43.802 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:09:43.806 -06:00 [DBG] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:09:43.814 -06:00 [DBG] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:09:43.824 -06:00 [DBG] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:09:43.851 -06:00 [INF] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 18:09:43.853 -06:00 [INF] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 18:09:43.860 -06:00 [DBG] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 18:09:47.613 -06:00 [INF] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 18:09:47.613 -06:00 [DBG] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:09:47.622 -06:00 [DBG] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:09:47.627 -06:00 [DBG] requestId: 0HN6RCFTRBQRD:00000001, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:09:47.628 -06:00 [INF] Response: 200
+2024-09-22 18:09:47.629 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 3828.3789ms
+2024-09-22 18:09:47.630 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 18:12:40.073 -06:00 [DBG] Hosting starting
+2024-09-22 18:12:41.377 -06:00 [INF] Now listening on: https://localhost:7051
+2024-09-22 18:12:41.377 -06:00 [DBG] Connection id "0HN6RCHOATK5Q" accepted.
+2024-09-22 18:12:41.379 -06:00 [INF] Now listening on: http://localhost:5162
+2024-09-22 18:12:41.377 -06:00 [DBG] Connection id "0HN6RCHOATK5P" accepted.
+2024-09-22 18:12:41.381 -06:00 [DBG] Loaded hosting startup assembly rr201098_desafio02
+2024-09-22 18:12:41.381 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-09-22 18:12:41.381 -06:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-09-22 18:12:41.381 -06:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-09-22 18:12:41.384 -06:00 [DBG] Connection id "0HN6RCHOATK5Q" started.
+2024-09-22 18:12:41.385 -06:00 [DBG] Connection id "0HN6RCHOATK5P" started.
+2024-09-22 18:12:41.449 -06:00 [DBG] Connection id "0HN6RCHOATK5P" received FIN.
+2024-09-22 18:12:41.449 -06:00 [DBG] Connection id "0HN6RCHOATK5Q" received FIN.
+2024-09-22 18:12:41.687 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 18:12:41.687 -06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-09-22 18:12:41.771 -06:00 [DBG] Connection id "0HN6RCHOATK5P" stopped.
+2024-09-22 18:12:41.771 -06:00 [DBG] Connection id "0HN6RCHOATK5Q" stopped.
+2024-09-22 18:12:41.781 -06:00 [DBG] Connection id "0HN6RCHOATK5P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 18:12:41.781 -06:00 [DBG] Connection id "0HN6RCHOATK5Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 18:12:41.915 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-22 18:12:41.915 -06:00 [INF] Hosting environment: Development
+2024-09-22 18:12:41.916 -06:00 [INF] Content root path: C:\GitHub\rr201098_desafio02\rr201098_desafio02
+2024-09-22 18:12:41.916 -06:00 [DBG] Hosting started
+2024-09-22 18:12:42.836 -06:00 [DBG] Connection id "0HN6RCHOATK5R" accepted.
+2024-09-22 18:12:42.840 -06:00 [DBG] Connection id "0HN6RCHOATK5R" started.
+2024-09-22 18:12:42.986 -06:00 [DBG] Connection 0HN6RCHOATK5R established using the following protocol: "Tls13"
+2024-09-22 18:12:43.139 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/ - null null
+2024-09-22 18:12:43.621 -06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-09-22 18:12:43.682 -06:00 [INF] Request: GET / 
+2024-09-22 18:12:43.691 -06:00 [INF] Response: 401
+2024-09-22 18:12:43.705 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/ - 401 null null 574.518ms
+2024-09-22 18:12:45.175 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/favicon.ico - null null
+2024-09-22 18:12:45.178 -06:00 [INF] Request: GET /favicon.ico 
+2024-09-22 18:12:45.179 -06:00 [INF] Response: 401
+2024-09-22 18:12:45.182 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/favicon.ico - 401 null null 6.765ms
+2024-09-22 18:12:51.745 -06:00 [DBG] Connection id "0HN6RCHOATK5S" accepted.
+2024-09-22 18:12:51.745 -06:00 [DBG] Connection id "0HN6RCHOATK5S" started.
+2024-09-22 18:12:51.756 -06:00 [DBG] Connection 0HN6RCHOATK5S established using the following protocol: "Tls13"
+2024-09-22 18:12:51.759 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:12:51.763 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:12:51.770 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:12:51.777 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:12:51.794 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:12:51.837 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 18:12:51.839 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 18:12:51.852 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 18:12:53.635 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 18:12:53.635 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:12:53.647 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:12:53.653 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000001, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:12:53.654 -06:00 [INF] Response: 200
+2024-09-22 18:12:53.655 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 1896.1789ms
+2024-09-22 18:12:53.656 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 18:13:01.052 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:13:01.053 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:13:01.053 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:13:01.053 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:13:01.053 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:13:01.054 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 18:13:01.054 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 18:13:01.055 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 18:13:01.148 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 18:13:01.148 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:13:01.148 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:13:01.148 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000003, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:13:01.149 -06:00 [INF] Response: 200
+2024-09-22 18:13:01.149 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 96.3918ms
+2024-09-22 18:13:01.149 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 18:13:10.676 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:13:10.676 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:13:10.676 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:13:10.676 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:13:10.676 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:13:10.676 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 18:13:10.676 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 18:13:10.677 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 18:13:11.001 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 18:13:11.001 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:13:11.001 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:13:11.001 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000005, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:13:11.001 -06:00 [INF] Response: 200
+2024-09-22 18:13:11.001 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 325.8829ms
+2024-09-22 18:13:11.002 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 18:13:24.664 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:13:24.665 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:13:24.665 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:13:24.666 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:13:24.666 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:13:24.666 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 18:13:24.666 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 18:13:24.666 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 18:13:24.735 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 18:13:24.735 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:13:24.735 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:13:24.736 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000007, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:13:24.736 -06:00 [INF] Response: 200
+2024-09-22 18:13:24.736 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 72.5682ms
+2024-09-22 18:13:24.736 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 18:13:25.643 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:13:25.643 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:13:25.644 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:13:25.644 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:13:25.644 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:13:25.644 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 18:13:25.644 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 18:13:25.644 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 18:13:25.751 -06:00 [INF] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 18:13:25.751 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:13:25.751 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:13:25.752 -06:00 [DBG] requestId: 0HN6RCHOATK5S:00000009, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:13:25.752 -06:00 [INF] Response: 200
+2024-09-22 18:13:25.752 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 108.8758ms
+2024-09-22 18:13:25.752 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 18:13:26.509 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:13:26.509 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:13:26.509 -06:00 [DBG] requestId: 0HN6RCHOATK5S:0000000B, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:13:26.509 -06:00 [DBG] requestId: 0HN6RCHOATK5S:0000000B, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:13:26.509 -06:00 [DBG] requestId: 0HN6RCHOATK5S:0000000B, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:13:26.511 -06:00 [INF] requestId: 0HN6RCHOATK5S:0000000B, previousRequestId: No PreviousRequestId, message: 'Request get:/productos from ClientId client has been blocked, quota 5/1m exceeded by 6. Blocked by rule /productos, TraceIdentifier 0HN6RCHOATK5S:0000000B.'
+2024-09-22 18:13:26.513 -06:00 [WRN] requestId: 0HN6RCHOATK5S:0000000B, previousRequestId: No PreviousRequestId, message: 'Error Code: QuotaExceededError Message: API calls quota exceeded! maximum admitted 5 per 1m. errors found in ResponderMiddleware. Setting error response for request path:/productos, request method: GET'
+2024-09-22 18:13:26.517 -06:00 [DBG] requestId: 0HN6RCHOATK5S:0000000B, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:13:26.517 -06:00 [INF] Response: 429
+2024-09-22 18:13:26.518 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 429 52 null 8.5931ms
+2024-09-22 18:16:57.319 -06:00 [DBG] Connection id "0HN6RCHOATK5S" received FIN.
+2024-09-22 18:16:57.321 -06:00 [DBG] Connection id "0HN6RCHOATK5R" received FIN.
+2024-09-22 18:16:57.331 -06:00 [DBG] The connection queue processing loop for 0HN6RCHOATK5S completed.
+2024-09-22 18:24:33.562 -06:00 [DBG] The connection queue processing loop for 0HN6RCHOATK5R completed.
+2024-09-22 18:24:33.582 -06:00 [DBG] Connection id "0HN6RCHOATK5S" is closed. The last processed stream ID was 11.
+2024-09-22 18:24:33.583 -06:00 [DBG] Connection id "0HN6RCHOATK5S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 18:24:33.582 -06:00 [DBG] Connection id "0HN6RCHOATK5R" is closed. The last processed stream ID was 3.
+2024-09-22 18:24:33.587 -06:00 [DBG] Connection id "0HN6RCHOATK5R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-09-22 18:24:33.717 -06:00 [DBG] Connection id "0HN6RCHOATK5S" stopped.
+2024-09-22 18:24:33.718 -06:00 [DBG] Connection id "0HN6RCHOATK5R" stopped.
+2024-09-22 18:24:39.799 -06:00 [DBG] Connection id "0HN6RCHOATK5T" accepted.
+2024-09-22 18:24:39.800 -06:00 [DBG] Connection id "0HN6RCHOATK5T" started.
+2024-09-22 18:24:39.804 -06:00 [DBG] Connection 0HN6RCHOATK5T established using the following protocol: "Tls13"
+2024-09-22 18:24:39.807 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:24:39.807 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:24:39.807 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:24:39.807 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:24:39.807 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:24:39.808 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 18:24:39.808 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 18:24:39.808 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 18:24:45.822 -06:00 [WRN] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: '500 (Internal Server Error) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 18:24:45.822 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:24:45.822 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:24:45.823 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000001, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:24:45.823 -06:00 [INF] Response: 500
+2024-09-22 18:24:45.823 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 500 null text/plain; charset=utf-8 6016.7886ms
+2024-09-22 18:24:45.824 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 500
+2024-09-22 18:24:54.812 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/productos - null null
+2024-09-22 18:24:54.812 -06:00 [INF] Request: GET /productos 
+2024-09-22 18:24:54.812 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:24:54.812 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/productos'.'
+2024-09-22 18:24:54.812 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/productos'
+2024-09-22 18:24:54.812 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/productos'.'
+2024-09-22 18:24:54.812 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: '/api/productos route does not require user to be authorized'
+2024-09-22 18:24:54.812 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7074/api/productos'
+2024-09-22 18:25:02.049 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7074/api/productos.'
+2024-09-22 18:25:02.049 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:25:02.049 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:25:02.189 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000003, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:25:02.189 -06:00 [INF] Response: 200
+2024-09-22 18:25:02.189 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/productos - 200 null application/json; charset=utf-8 7377.8007ms
+2024-09-22 18:25:02.189 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/productos, Response status code: 200
+2024-09-22 18:29:27.991 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/usuarios - null null
+2024-09-22 18:29:27.991 -06:00 [INF] Request: GET /usuarios 
+2024-09-22 18:29:27.991 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:29:27.991 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/usuarios'.'
+2024-09-22 18:29:27.992 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/usuarios'
+2024-09-22 18:29:27.992 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'EndpointRateLimiting is not enabled for /api/usuarios'
+2024-09-22 18:29:27.992 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/usuarios'.'
+2024-09-22 18:29:27.992 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: '/api/usuarios route does not require user to be authorized'
+2024-09-22 18:29:27.992 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7241/api/usuarios'
+2024-09-22 18:29:29.932 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7241/api/usuarios.'
+2024-09-22 18:29:29.932 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:29:29.933 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:29:29.943 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000005, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:29:29.943 -06:00 [INF] Response: 200
+2024-09-22 18:29:29.944 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/usuarios - 200 null application/json; charset=utf-8 1956.536ms
+2024-09-22 18:29:29.944 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/usuarios, Response status code: 200
+2024-09-22 18:30:17.812 -06:00 [INF] Request starting HTTP/2 GET https://localhost:7051/usuarios/1 - null null
+2024-09-22 18:30:17.814 -06:00 [INF] Request: GET /usuarios/1 
+2024-09-22 18:30:17.814 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline started'
+2024-09-22 18:30:17.814 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'Upstream URL path is '/usuarios/1'.'
+2024-09-22 18:30:17.814 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'downstream templates are /api/usuarios/{id}'
+2024-09-22 18:30:17.815 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'EndpointRateLimiting is not enabled for /api/usuarios/{id}'
+2024-09-22 18:30:17.815 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'No authentication needed for path '/usuarios/1'.'
+2024-09-22 18:30:17.815 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: '/api/usuarios/{id} route does not require user to be authorized'
+2024-09-22 18:30:17.821 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'Downstream url is https://localhost:7241/api/usuarios/1'
+2024-09-22 18:30:18.178 -06:00 [INF] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: '200 (OK) status code of request URI: https://localhost:7241/api/usuarios/1.'
+2024-09-22 18:30:18.178 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'setting http response message'
+2024-09-22 18:30:18.179 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'no pipeline errors, setting and returning completed response'
+2024-09-22 18:30:18.179 -06:00 [DBG] requestId: 0HN6RCHOATK5T:00000007, previousRequestId: No PreviousRequestId, message: 'ocelot pipeline finished'
+2024-09-22 18:30:18.179 -06:00 [INF] Response: 200
+2024-09-22 18:30:18.179 -06:00 [INF] Request finished HTTP/2 GET https://localhost:7051/usuarios/1 - 200 null application/json; charset=utf-8 366.6731ms
+2024-09-22 18:30:18.179 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7051/usuarios/1, Response status code: 200

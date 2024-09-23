@@ -1,0 +1,12 @@
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\AuthenticationManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\AuthenticationManager.AssemblyInfoInputs.cache
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\AuthenticationManager.AssemblyInfo.cs
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\AuthenticationManager.csproj.CoreCompileInputs.cache
+C:\GitHub\rr201098_desafio02\AuthenticationManager\bin\Debug\net8.0\AuthenticationManager.deps.json
+C:\GitHub\rr201098_desafio02\AuthenticationManager\bin\Debug\net8.0\AuthenticationManager.dll
+C:\GitHub\rr201098_desafio02\AuthenticationManager\bin\Debug\net8.0\AuthenticationManager.pdb
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\AuthenticationManager.csproj.AssemblyReference.cache
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\AuthenticationManager.dll
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\refint\AuthenticationManager.dll
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\AuthenticationManager.pdb
+C:\GitHub\rr201098_desafio02\AuthenticationManager\obj\Debug\net8.0\ref\AuthenticationManager.dll
